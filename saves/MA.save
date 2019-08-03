@@ -1,0 +1,89 @@
+{
+    "case": 0,
+    "case data": {
+        "case completion": 0,
+        "clues found": 8,
+        "locations visited": [
+            "Detective's House"
+        ],
+        "total clues": 8
+    },
+    "case finished": false,
+    "case started": true,
+    "clues found": [
+        "You found a letter that had the initials M.K on it who might that be ?",
+        "\nYou found a letter that had the initials M.K on it who might that be ?",
+        "\nYou found a knife with blood on it.\nThe blood seems quite fresh.\nCould that be the murder weapon ?",
+        "The nurse was the last one to meet with Carl before his death...\nThat's odd nurses don't use knives.",
+        "\nYou found a magntic what could be the use for it ?",
+        "\nYou found a magnetic what could be the use for it ?",
+        "You found a photograph of the victim with what apears to be an old man who is it ?"
+    ],
+    "current location": 1,
+    "current room": "1.room",
+    "current text": 3,
+    "inventory": [
+        "knife",
+        "magnetic key",
+        "letter"
+    ],
+    "name": "MA",
+    "notes": [
+        {
+            "name": "letter",
+            "texts": [
+                "You notice a letter under the fridge that seems oddly suspicious.\nYou get it out of there and start reading it",
+                "\nTo Carl,\n\nDear friend i notice you have not responded to my latest letter.I think someone is trying to harm me.Molestiae et ea. Est sequi occaecati et. Porro quis excepturi sint consequatur ullam. Aliquid porro numquam quaerat eaque consequatur nihil blanditiis. Sit velit quis. Esse non a alias perspiciatis culpa.\n\nFacilis est est voluptatum maxime velit sit accusamus. Est qui hic incidunt accusamus. Amet placeat iste molestiae consequuntur rem voluptatem cum.\n\nI got a bad feeling about this.\n\n\t\t\t\t\tYour friend, M.K."
+            ]
+        },
+        {
+            "name": "letter",
+            "texts": [
+                "You notice a letter under the fridge that seems oddly suspicious.\nYou get it out of there and start reading it",
+                "To Carl,\n\nDear friend i notice you have not responded to my latest letter.I think someone is trying to harm me.Molestiae et ea. Est sequi occaecati et. Porro quis excepturi sint consequatur ullam. Aliquid porro numquam quaerat eaque consequatur nihil blanditiis. Sit velit quis. Esse non a alias perspiciatis culpa.\n\nFacilis est est voluptatum maxime velit sit accusamus. Est qui hic incidunt accusamus. Amet placeat iste molestiae consequuntur rem voluptatem cum.\n\nI got a bad feeling about this.\n\n\t\t\t\t\tYour friend, M.K."
+            ]
+        },
+        {
+            "name": "knife",
+            "texts": [
+                "You notice a knife on top of the fridge.\nYou take it in your hands and start analysing it.",
+                "The knife is quite sturdy. It is rather sharp on the edges.\nThe size of the knife corresponds to the size of the wound on the victim.\nThe blood on it is still fresh maybe a couple days old.\nCould it be the muder weapon ?"
+            ]
+        },
+        {
+            "name": "magnetic key",
+            "texts": [
+                "It's a magnetic key in there.\nYou store it in your bag."
+            ]
+        },
+        {
+            "name": "key door",
+            "texts": [
+                "The door appears to be closed.\nHow can we open it now ?"
+            ]
+        },
+        {
+            "name": "use magnetic key",
+            "texts": [
+                "You use the magnetic key...\nBip...Bip...Bip...\nThe door flashes green it is open.\nYou look inside of it you find a photograph of the victim with an old man."
+            ]
+        }
+    ],
+    "npcs talked to": [
+        {
+            "current path": "path 1.3",
+            "name": "John Frieg",
+            "state": "scared"
+        },
+        {
+            "current path": "None",
+            "name": "Frieda Smith",
+            "state": "normal"
+        },
+        {
+            "current path": "None",
+            "name": "Frieda Smith",
+            "state": "normal"
+        }
+    ]
+}

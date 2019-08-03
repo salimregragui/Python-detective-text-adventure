@@ -1,0 +1,50 @@
+{
+    "case": 0,
+    "case data": {
+        "case completion": 0,
+        "clues found": 3,
+        "locations visited": [
+            "Detective's House"
+        ],
+        "total clues": 8
+    },
+    "case finished": false,
+    "case started": true,
+    "clues found": [
+        "\nYou found a letter that had the initials M.K on it who might that be ?",
+        "\nYou found a magnetic what could be the use for it ?",
+        "\nYou found a knife with blood on it.\nThe blood seems quite fresh.\nCould that be the murder weapon ?"
+    ],
+    "current location": 1,
+    "current room": "1.room",
+    "current text": 3,
+    "inventory": [
+        "letter",
+        "magnetic key",
+        "knife"
+    ],
+    "name": "TEST",
+    "notes": [
+        {
+            "name": "letter",
+            "texts": [
+                "You notice a letter under the fridge that seems oddly suspicious.\nYou get it out of there and start reading it",
+                "To Carl,\n\nDear friend i notice you have not responded to my latest letter.I think someone is trying to harm me.Molestiae et ea. Est sequi occaecati et. Porro quis excepturi sint consequatur ullam. Aliquid porro numquam quaerat eaque consequatur nihil blanditiis. Sit velit quis. Esse non a alias perspiciatis culpa.\n\nFacilis est est voluptatum maxime velit sit accusamus. Est qui hic incidunt accusamus. Amet placeat iste molestiae consequuntur rem voluptatem cum.\n\nI got a bad feeling about this.\n\n\t\t\t\t\tYour friend, M.K."
+            ]
+        },
+        {
+            "name": "magnetic key",
+            "texts": [
+                "It's a magnetic key in there.\nYou store it in your bag."
+            ]
+        },
+        {
+            "name": "knife",
+            "texts": [
+                "You notice a knife on top of the fridge.\nYou take it in your hands and start analysing it.",
+                "The knife is quite sturdy. It is rather sharp on the edges.\nThe size of the knife corresponds to the size of the wound on the victim.\nThe blood on it is still fresh maybe a couple days old.\nCould it be the muder weapon ?"
+            ]
+        }
+    ],
+    "npcs talked to": []
+}

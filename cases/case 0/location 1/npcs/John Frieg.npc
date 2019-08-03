@@ -1,0 +1,96 @@
+{
+    "name" : "John Frieg",
+    "description" : "Some bla bla with a little bit of bla bla on top of his bla bla.",
+    "state" : "normal",
+    "path" : "path 1",
+    "requires" : {
+        "npc" : "Frieda Smith",
+        "object" : "magnetic key"
+    },
+    "paths" : [
+        {
+            "path 1" : "(crying) My poor carl he was so sweet and nice.\nI'm gonna miss him so much.",
+            "possible answers" : [
+                {
+                    "answer" : "Hi Mr Frieg I'm sorry for your loss",
+                    "new state" : "normal",
+                    "path" : "path 1.1"
+                },
+                {
+                    "answer" : "Mr Frieg I think you killed Carl !",
+                    "new state" : "scared",
+                    "path" : "path 1.2"
+                },
+                {
+                    "answer" : "We'll at least who ever did this helped him burn some calories by setting hm on fire.\nAm I right (you raise your hand for a high five) !",
+                    "new state" : "angry",
+                    "path" : "path 1.3"
+                }
+            ]
+        },
+
+        {
+            "path 1.1" : "Thank you very much Detective Python.\nCarl was an angel who would do such a thing to him.",
+            "clue" : "The nurse was the last one to meet with Carl before his death...\nThat's odd nurses don't use knives.",
+            "possible answers" : [
+                {
+                    "answer" : "Did Carl have any enemies Mr Frieg.",
+                    "new state" : "normal",
+                    "path" : "path 1.1.1"
+                },
+                {
+                    "answer" : "I heard you and him had a fight last week is that right ?",
+                    "new state" : "scared",
+                    "path" : "path 1.1.2"
+                },
+                {
+                    "answer" : "I know a few people who would like to hurt him\n...That list includes you...",
+                    "new state" : "angry",
+                    "path" : "None"
+                }
+            ]
+        },
+
+        {
+            "path 1.2" : "Wh...What...No I didn't do anything...I Swear... \nI would never do such a thing.",
+            "possible answers" : [
+                {
+                    "answer" : "And why wouldn't you I heard you two had a fight last week",
+                    "new state" : "normal",
+                    "path" : "path 2.1"
+                },
+                {
+                    "answer" : "Don't play those games with me !\nI know you two had a fight last week wich resulted in physical violence.",
+                    "new state" : "scared",
+                    "path" : "path 2.2"
+                },
+                {
+                    "answer" : "Listen here you little idiot.(grabs him by the collar)...\nDon't play dumb with me now.",
+                    "new state" : "angry",
+                    "path" : "path 2.3"
+                }
+            ]
+        },
+
+        {
+            "path 1.3" : "You monster, leave me alone before I call security.",
+            "possible answers" : [
+                {
+                    "answer" : "Hi Mr Frieg I'm sorry for your loss",
+                    "new state" : "normal",
+                    "path" : "path 1.1"
+                },
+                {
+                    "answer" : "Mr Frieg I need you to listen to me right now !",
+                    "new state" : "scared",
+                    "path" : "path 1.2"
+                },
+                {
+                    "answer" : "I'm happy your husband died hahaha !",
+                    "new state" : "angry",
+                    "path" : "path 1.3"
+                }
+            ]
+        }
+    ]
+}

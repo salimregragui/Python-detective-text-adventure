@@ -1,0 +1,110 @@
+{
+
+    "name" : "Kitchen",
+    "room description" : "The room seems rather dark. There is a fridge on the corner of the room, the air is rather thin in here. a bla bla is inside the bla bla as well as some bla bla in the bla bla oh what a bla bla",
+
+    "possible actions" : [
+
+        {
+            "action" : "look",
+            "action finish" : {
+                "empty" : [
+                    "Look at my horse.\nMy horse is amazing.\nGive it a lick 'Mmm it taste just like raisins !'.",
+                    "\nI'm looking.\nYou are looking.\nHe's looking.\nWe're looking.\nYou are looking.\nThey are looking.\n"
+                ],
+                "left" : "There is a door to the left",
+                "right" : "There is a room to the right",
+                "bottom" : "Hum that's odd you are wearing two different color socks",
+                "down" : "Hum that's odd you are wearing two different color socks",
+                "top" : "The ceiling seems old,there is a fan in the corner",
+                "under fridge" : "There seems to be a letter under the fridge hmm.",
+                "top fridge" : "There seems to be a knife on top of the fridge.",
+                "under table" : "There is something in there...\nYou grab for it with your right hand.",
+                "none of the above" : [
+                    "Humm that's odd...it seems the location you want to see was absorbed in the 4th dimension",
+                    "What where are we...who am I...What is this location you're talking about...",
+                    "I'm looking...There is nothing there stop giving me false scares !",
+                    "I can look into your soul.\nOh my sweet jesus.\nThat's the darkest soul I have ever seen.\nLord help us."
+                ]
+
+            }
+
+        },
+
+        {
+            "action" : "analyse",
+            "action finish": {
+                "blood puddle" : "This blood puddle is rather thick.\n(You take a little bit in your hand and put it on your nose).\nHmm as I was fearing the blood is only a couple hours old."
+            }
+
+        }
+
+    ],
+
+    "objects in room" : [
+
+        {
+
+            "name" : "letter",
+            "storable" : true,
+            "action needed" : "look under fridge",
+            "clue" : "\nYou found a letter that had the initials M.K on it who might that be ?",
+            "texts" : [
+                "You notice a letter under the fridge that seems oddly suspicious.\nYou get it out of there and start reading it",
+                "To Carl,\n\nDear friend i notice you have not responded to my latest letter.I think someone is trying to harm me.Molestiae et ea. Est sequi occaecati et. Porro quis excepturi sint consequatur ullam. Aliquid porro numquam quaerat eaque consequatur nihil blanditiis. Sit velit quis. Esse non a alias perspiciatis culpa.\n\nFacilis est est voluptatum maxime velit sit accusamus. Est qui hic incidunt accusamus. Amet placeat iste molestiae consequuntur rem voluptatem cum.\n\nI got a bad feeling about this.\n\n\t\t\t\t\tYour friend, M.K."
+            ]
+
+        },
+        {
+
+            "name" : "magnetic key",
+            "storable" : true,
+            "action needed" : "look under table",
+            "clue" : "\nYou found a magnetic what could be the use for it ?",
+            "texts" : [
+                "It's a magnetic key in there.\nYou store it in your bag."
+            ]
+
+        },
+        {
+
+            "name" : "knife",
+            "storable" : true,
+            "action needed" : "look top fridge",
+            "clue" : "\nYou found a knife with blood on it.\nThe blood seems quite fresh.\nCould that be the murder weapon ?",
+            "texts" : [
+                "You notice a knife on top of the fridge.\nYou take it in your hands and start analysing it.",
+                "The knife is quite sturdy. It is rather sharp on the edges.\nThe size of the knife corresponds to the size of the wound on the victim.\nThe blood on it is still fresh maybe a couple days old.\nCould it be the muder weapon ?"
+            ]
+
+        },
+        {
+
+            "name" : "key door",
+            "action needed" : "look at key door",
+            "storable" : false,
+            "requires" : {
+                "action" : "use magnetic key",
+                "object" : "magnetic key",
+                "texts" : [
+                    "You use the magnetic key...\nBip...Bip...Bip...\nThe door flashes green it is open.\nYou look inside of it you find a photograph of the victim with an old man."
+                ],
+                "clue" : "You found a photograph of the victim with what apears to be an old man who is it ?"
+            },
+            "clue" : "\nYou found a knife with blood on it.\nThe blood seems quite fresh.\nCould that be the murder weapon ?",
+            "texts" : [
+                "The door appears to be closed.\nHow can we open it now ?"
+
+            ]
+
+        }
+
+    ],
+
+    "npcs in room" : [
+        "John Frieg",
+        "Max Hunt",
+        "Frieda Smith"
+    ]
+
+}

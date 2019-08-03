@@ -1,0 +1,46 @@
+{
+
+    "Detective M's House" : {
+
+        "possible actions" : [
+
+            {
+                "action" : "look",
+                "location" : [{
+
+                    "left" : "There is a door to the left",
+                    "right" : "There is a room to the right",
+                    "bottom" : "Hum that's odd you are wearing two different color socks",
+                    "top" : "The ceiling seems old,there is a fan in the corner",
+                    "under fridge" : "Vase"
+
+                }]
+
+            },
+
+            {
+                "action" : "get"
+
+            }
+
+        ],
+
+        "objects in room" : [
+
+            {
+
+                "name" : "letter",
+                "action needed" : "look under fridge",
+                "clue" : "You found a letter that had the initials M.K on it who might that be ?",
+                "texts" : [
+                    "You notice a letter under the fridge that seems oddly suspicious.\n You get it out of there and start reading it",
+                    "To Carl,\n\tDear friend i notice you have not responded to my latest letter. I think someone is trying to harm me.\nI got a bad feeling about this.\n\t\t\tYour friend, M.K."
+                ]
+
+            }
+
+        ]
+
+    }
+
+}

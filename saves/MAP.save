@@ -1,0 +1,41 @@
+{
+    "case": 0,
+    "case data": {
+        "case completion": 0,
+        "clues found": 2,
+        "locations visited": [
+            "Detective's House"
+        ],
+        "total clues": 8
+    },
+    "case finished": false,
+    "case started": true,
+    "clues found": [
+        "\nYou found a magntic what could be the use for it ?",
+        "\nYou found a knife with blood on it.\nThe blood seems quite fresh.\nCould that be the murder weapon ?"
+    ],
+    "current location": 1,
+    "current room": "1.room",
+    "current text": 3,
+    "inventory": [
+        "magnetic key",
+        "knife"
+    ],
+    "name": "MAP",
+    "notes": [
+        {
+            "name": "magnetic key",
+            "texts": [
+                "It's a magnetic key in there.\nYou store it in your bag."
+            ]
+        },
+        {
+            "name": "knife",
+            "texts": [
+                "You notice a knife on top of the fridge.\nYou take it in your hands and start analysing it.",
+                "The knife is quite sturdy. It is rather sharp on the edges.\nThe size of the knife corresponds to the size of the wound on the victim.\nThe blood on it is still fresh maybe a couple days old.\nCould it be the muder weapon ?"
+            ]
+        }
+    ],
+    "npcs talked to": []
+}

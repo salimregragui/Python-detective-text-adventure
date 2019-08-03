@@ -1,0 +1,94 @@
+{
+    "name" : "Frieda Smith",
+    "description" : "Some bla bla with a little bit of bla bla on top of his bla bla.",
+    "state" : "normal",
+    "path" : "path 1",
+    "requires" : {
+        "object" : "magnetic key"
+    },
+    "paths" : [
+        {
+            "path 1" : "Oh no my poor carl he was so young so cute.",
+            "possible answers" : [
+                {
+                    "answer" : "Hi Mr Frieg I'm sorry for your loss",
+                    "new state" : "normal",
+                    "path" : "path 1.1"
+                },
+                {
+                    "answer" : "Leave !",
+                    "new state" : "scared",
+                    "path" : "None"
+                },
+                {
+                    "answer" : "I'm happy your husband died hahaha !",
+                    "new state" : "angry",
+                    "path" : "path 1.3"
+                }
+            ]
+        },
+
+        {
+            "path 1.1" : "Thank you very much Detective Python.",
+            "possible answers" : [
+                {
+                    "answer" : "Hi Mr Frieg I'm sorry for your loss",
+                    "new state" : "normal",
+                    "path" : "path 1.1"
+                },
+                {
+                    "answer" : "Mr Frieg I need you to listen to me right now !",
+                    "new state" : "scared",
+                    "path" : "path 1.2"
+                },
+                {
+                    "answer" : "I'm happy your husband died hahaha !",
+                    "new state" : "angry",
+                    "path" : "path 1.3"
+                }
+            ]
+        },
+
+        {
+            "path 1.2" : "Wh...What...No I didn't do nothing...I Swear...Somebody help me.",
+            "possible answers" : [
+                {
+                    "answer" : "Hi Mr Frieg I'm sorry for your loss",
+                    "new state" : "normal",
+                    "path" : "path 1.1"
+                },
+                {
+                    "answer" : "Mr Frieg I need you to listen to me right now !",
+                    "new state" : "scared",
+                    "path" : "path 1.2"
+                },
+                {
+                    "answer" : "I'm happy your husband died hahaha !",
+                    "new state" : "angry",
+                    "path" : "path 1.3"
+                }
+            ]
+        },
+
+        {
+            "path 1.3" : "You monster, leave me alone before I call my guards.",
+            "possible answers" : [
+                {
+                    "answer" : "Hi Mr Frieg I'm sorry for your loss",
+                    "new state" : "normal",
+                    "path" : "path 1.1"
+                },
+                {
+                    "answer" : "Mr Frieg I need you to listen to me right now !",
+                    "new state" : "scared",
+                    "path" : "path 1.2"
+                },
+                {
+                    "answer" : "I'm happy your husband died hahaha !",
+                    "new state" : "angry",
+                    "path" : "path 1.3"
+                }
+            ]
+        }
+    ]
+}
