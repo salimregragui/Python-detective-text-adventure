@@ -1,0 +1,25 @@
+{
+    "global actions" : [
+
+        {
+            "action" : "help",
+            "action finish" : {
+                "look" : "Action that makes you look somewhere.\nHow to use : look {location}\nExemple : look left"
+            }
+
+        },
+
+        {
+            "action" : "analyse",
+            "action finish" : {
+                "empty":[
+                    "What would you like to analyse ? Give me something to work with here damn it !",
+                    "The air seems rather fresh here, mmmmmm air !"
+                ],
+                "room" : "$room description"
+            }
+
+        }
+
+    ]
+}
