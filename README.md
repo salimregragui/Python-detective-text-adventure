@@ -5,5 +5,5 @@
 - The player also has access to the inventory of objects he has found in the current case.
 - The npc system is a multiple paths one wich means that if the player angers, scares or is nice to the npc his answer will change sometimes to
 the point of him refusing to continue conversation with you, or lying and not giving you the correct clue.
-- the npcs, object,... also have a required system. wich means that in order to talk to a npc or get an object you need to have acomplished
+- the npcs, objects,... also have a requirement system. wich means that in order to talk to a npc or get an object you need to have acomplished
 something before such as (talking to another npc, having another object in your inventory,...)
