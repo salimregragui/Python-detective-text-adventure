@@ -9,7 +9,6 @@
             "action" : "look",
             "action finish" : {
                 "empty" : [
-                    "Look at my horse.\nMy horse is amazing.\nGive it a lick 'Mmm it taste just like raisins !'.",
                     "\nI'm looking.\nYou are looking.\nHe's looking.\nWe're looking.\nYou are looking.\nThey are looking.\n"
                 ],
                 "left" : "There is a door to the left",
